@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #96f0b6;
+}
+
+/*Header*/
+header {
+  background-color: rgb(0, 0, 0);
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  font-size: 16px;
+}
+
+.logoimg {
+  width: 150px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  float: left;
+  color: #fff;
+}
+
+.li-links {
+  margin-right: 7vh;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.b-links {
+  margin-left: 8vh;
+  margin-right: 8vh;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/*Section Home*/
+.home {
+  background-color: #96f0b6;
+  height: 88vh;
+  color: #202f72;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 10vh;
+  padding-left: 10vh;
+}
+
+.textos {
+  width: 70%;
+}
+
+.acabando {
+  font-size: 60px;
+  margin-top: 5vh;
+}
+
+.curta {
+  margin-top: 2vh;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.desc-plan {
+  font-size: 14px;
+  padding-top: 5vh;
+}
+
+.aproveitebtn {
+  background-color: #202f72;
+  color: #96f0b6;
+  width: fit-content;
+  padding: 2vh 3vh;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.aproveitebtn:hover {
+  background-color: #16266b;
+  padding: 2.5vh 3.5vh;
+}
+
+.pencilimg {
+  width: 30vh;
+}
+/*Responsivity*/
+
+@media (max-width: 1424px) {
+  header {
+    padding-right: 8vh;
+    padding-left: 8vh;
+  }
+}
+
+@media (max-width: 1296px) {
+  .textos {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1424px) {
+  header {
+    padding-right: 3vh;
+    padding-left: 3vh;
+  }
+}
+
+@media (min-width: 1161px) {
+  .pencilimg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1160px) {
+  .links {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+}
+
+@media (max-width: 1293px) {
+  .premium {
+    margin-top: 5vh;
+  }
+}
+
+@media (max-width: 1293px) {
+  .premium {
+    margin-top: 5vh;
+  }
+}
+
+@media (max-width: 953px) {
+  .acabando {
+    font-size: 8vh;
+  }
+
+  .home {
+    padding-right: 3vh;
+    padding-left: 3vh;
+  }
+
+  .aproveitebtn {
+    width: 90%;
+  }
+}
+
+@media (max-width: 627px) {
+  .acabando {
+    font-size: 6vh;
+  }
+
+  .curta {
+    font-size: 3vh;
+  }
+
+  .desc-plan {
+    font-size: 2.5vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .acabando {
+    font-size: 4vh;
+  }
+
+  .curta {
+    font-size: 2.6vh;
+  }
+
+  .desc-plan {
+    font-size: 2vh;
+  }
+}
